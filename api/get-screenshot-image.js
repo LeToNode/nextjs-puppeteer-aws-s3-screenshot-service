@@ -61,7 +61,7 @@ export default async (req, res) => {
 		const fileName = 'uploaded_on_' + Date.now() + '.jpg'
 
 		const params = {
-			Bucket: 'aws-tutorial-codedamn',
+			Bucket: 'cyipp-aws',
 			Key: fileName,
 			Body: imageBuffer
 		}
