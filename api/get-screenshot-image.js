@@ -76,7 +76,7 @@ export default async (req, res) => {
 			}
 
 			const params = {
-				Bucket: 'aws-tutorial-codedamn',
+				Bucket: 'cyipp-aws',
 				Key: fileName,
 				Expires: 60
 			}
